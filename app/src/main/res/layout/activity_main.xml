@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:fontFamily="cursive"
+            android:text="1st no."
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="150dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:fontFamily="cursive"
+            android:inputType="number"
+            android:text="2nd no."
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/e2"
+            android:layout_width="150dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/resadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="RESULT"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:text="subtraction" />
+
+    <TextView
+        android:id="@+id/ressub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="subtraction"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:text="next activity" />
+
+        <Button
+            android:id="@+id/bvis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="visibility" />
+
+        <Button
+            android:id="@+id/b45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="link anurag" />
+
+        <Button
+            android:id="@+id/bcon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="converter" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="add"
+            android:text="addition"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/sk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="seekbar" />
+
+        <Button
+            android:id="@+id/b12"
+            android:layout_width="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:text="Webview" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
